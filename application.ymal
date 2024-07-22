@@ -1,3 +1,11 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    propertirs:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
 eureka:
   instance:
     hostname: localhost
